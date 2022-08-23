@@ -182,4 +182,4 @@ select nombre, direccion from paciente where nombre = 'Aurora';
 update paciente set direccion =(select direccion from paciente where dni ='78543612') where dni ='70230140';
 select nombre, direccion from paciente where dni ='70230140';
 select nombre,direccion from paciente where direccion ='Madrid 414';
-
+--hola esto es una edicion desde github
